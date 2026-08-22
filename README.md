@@ -29,5 +29,32 @@ DevLogs provides a streamlined input form tailored to hackathon judging criteria
 ## Local Setup Instructions
 
 1. Clone the repository:
-   ```bash
-   git clone [https://github.com/robot3-track/Devlogs.git](https://github.com/robot3-track/devlogs.git)
+   git clone https://github.com/your-username/devlogs.git
+
+2. Navigate to the project directory:
+   cd devlogs
+
+3. Install dependencies:
+   npm install
+
+4. Run the development server:
+   npm run dev
+
+5. Open http://localhost:3000 in your browser to view the application.
+
+## Deployment
+
+This application is configured for standard deployment on Vercel. 
+
+To deploy:
+1. Push your code to a public GitHub repository.
+2. Import the repository into your Vercel dashboard.
+3. Keep default build settings (Next.js) and select Deploy.
+
+## Learning Milestones
+
+Building DevLogs provided direct experience in:
+* Handling controlled form states in React with TypeScript
+* Utilizing browser localStorage APIs for state persistence across browser reloads
+* Formatting raw user strings into clean, multi-line Markdown output
+* Building responsive two-column layouts using standard Tailwind CSS grid utilities

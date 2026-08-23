@@ -58,3 +58,6 @@ Building DevLogs provided direct experience in:
 * Utilizing browser localStorage APIs for state persistence across browser reloads
 * Formatting raw user strings into clean, multi-line Markdown output
 * Building responsive two-column layouts using standard Tailwind CSS grid utilities
+
+## Live Official Deployment
+https://devlogging.vercel.app
